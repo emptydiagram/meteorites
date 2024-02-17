@@ -45,6 +45,7 @@ class EnvDisplay:
         self.screen = turtle.Screen()
         self.screen.setup(width=W, height=H)
         self.screen.setworldcoordinates(llx, lly, urx, ury)
+        self.screen.tracer(0)
 
         self.met_size = 0.4
 
